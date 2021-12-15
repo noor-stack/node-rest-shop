@@ -52,7 +52,7 @@ router.post("/", (req, res, next) => {
     .then(result => {
       console.log(result);
       res.status(201).json({
-        message: "created product successfully",
+        message: "created product successfullyy",
         createdProduct: result
       });
     })
