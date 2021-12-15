@@ -1,0 +1,23 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A Node.js Rest api learning project(Build a simple shop API)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "noor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "mongoose-morgan": "^1.0.17",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0"
+  }
+}
